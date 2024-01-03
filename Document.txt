@@ -1,0 +1,4 @@
+﻿Tag Helpers Nedir?
+
+View'imizi daha anlaşılır , okunur ve kolay  geliştirilebilir hale getirilmesi amacıyla server side kodlarımızı hmtl taglari gibi oluşturup kullanmamıza olanak sağlar.
+Tag Helpers ları kullanmak için Views/_ViewImporty.cshtml' de tanımlamalıyız. Tanımlama şekli defualt olarak @addTagHelper * , ProjectName şeklindedir. Böylelikle projemiz içerisindeki tüm Tag Helpers ları kullanabiliriz.

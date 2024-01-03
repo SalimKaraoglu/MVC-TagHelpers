@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3>Normal Button</h3>
+    <button-save></button-save>
+    <hr />
+    <h3>Generic Button</h3>
+    <generic-button class-name="btn btn-primary" icon-name="fa-solid fa-download" name=" Download"></generic-button>
+    <generic-button class-name="btn btn-danger" icon-name="fa-solid fa-delete-left" name=" Delete"></generic-button>
+    <generic-button class-name="btn btn-secondary" icon-name="fa-solid fa-save" name=" Save"></generic-button>
+    <hr />
+    <h3>Magic Box</h3>
+    <div class="d-flex justify-content-center">
+        <box-create width="300" height="300" color="cyan" text="box-1" radius="200px"></box-create>
+        <box-create width="300" height="300" color="red" text="box-2" ></box-create>
+        <box-create width="300" height="300" color="orange" text="box-3" radius="100px"></box-create>
+        <box-create width="300" height="300" color="yellow" text="box-4"></box-create>
+        <box-create width="300" height="300" color="blue" text="box-" radius="200px"></box-create>
+    </div>
+    <h3>Image Boxes</h3>
+    <div class="d-flex justify-content-center">
+        <image-box-maker height="400" witdh="400" color="black" image="https://www.nasol.com.tr/urunlerresim/buyuk/f1167-167.jpg"></image-box-maker>
+    </div>
+
+
+</div>
